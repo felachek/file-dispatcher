@@ -5,15 +5,6 @@ import shutil
 
 # paths
 downloadsPath = os.path.expanduser("~") + '/Downloads'
-picturesPath = os.path.expanduser("~") + '/Pictures'
-MusicPath = os.path.expanduser("~") + '/Music'
-VideosPath = os.path.expanduser("~") + '/Videos'
-documentsPath = os.path.expanduser("~") + '/Documents'
-presentationsPath = documentsPath + '/Presentations'
-spreadsheetsPath = documentsPath + '/Spreadsheets'
-ebooksPath = documentsPath + '/Ebooks'
-docsPath = documentsPath + '/Docs'
-tempsPath = documentsPath + '/Temps'
 # list to store files
 files = []
 # files extensions
