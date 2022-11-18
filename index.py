@@ -1,9 +1,8 @@
 #!/usr/bin/python
-
 import os
 import shutil
 
-# paths
+# main path
 downloadsPath = os.path.expanduser("~") + '/Downloads'
 # list to store files
 files = []
@@ -35,7 +34,7 @@ def moveFileToDirectory(file):
                         os.mkdir(newDir)
                         shutil.move(oldPath, newDir)
     except FileNotFoundError:
-        print("not found file: " + file)
+        print("File not found" + file + "or Unable to create directory: " + newDir)
     except:
         print("Something went wrong with this file: " + file)
 
